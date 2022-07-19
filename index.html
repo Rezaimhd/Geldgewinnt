@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gewinnen bei Uns viel Geld</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4a0b8a59e.js" crossorigin="anonymous"></script>
+    <title>Casino Royale</title>
 </head>
 <body>
     <section>
-        <h1>Casino Royal</h1>
-        <span id="aktuellkonto" class="start"></span>
-        <div class="buttunu">
-            <button onclick="run()">Wetten!</button>
-            <button onclick="back()">Reset!</button>
-            <span id="price" class="result"></span>
-        </div>
+        <main>
+            <h1>Casino Royale</h1>
+            <!-- <h2>Die Zahl 50 Gewinnt 100€</h2> -->
+            <p id="konto"></p>
+            <button id="wetten" onclick="run()">Wetten!</button>
+            <button onclick="revert()">Reset!</button>
+            <div id="zahl" class="fa-solid fa-dice-six">
+            </div>
+        </main>
     </section>
-
-
     <script src="index.js"></script>
 </body>
 </html>
